@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>net8.0</TargetFramework>
@@ -6,8 +6,6 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-<<<<<<< Updated upstream
-=======
   <ItemGroup>
     <PackageReference Include="Bogus" Version="35.6.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.8" />
@@ -22,5 +20,4 @@
     <ProjectReference Include="..\..\Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj" />
   </ItemGroup>
 
->>>>>>> Stashed changes
 </Project>
