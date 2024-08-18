@@ -6,4 +6,8 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\YoutubeApi.Domain\YoutubeApi.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
