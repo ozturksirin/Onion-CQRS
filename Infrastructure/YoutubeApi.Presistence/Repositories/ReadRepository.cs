@@ -11,7 +11,7 @@ using YoutubeApi.Domain.Common;
 
 namespace YoutubeApi.Presistence.Repositories
 {
-    public class ReadRepository<T> : IReadRepostory<T> where T : class, IEntityBase, new()
+    public class ReadRepository<T> : IReadRepository<T> where T : class, IEntityBase, new()
     {
         private readonly DbContext dbContext;
 
