@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Query;
 
 namespace YoutubeApi.Application.Interfaces.Repositories
 {
-    public interface IReadRepostory<T> where T : class,IEntityBase, new()
+    public interface IReadRepository<T> where T : class,IEntityBase, new()
     {
         Task<IList<T>> GetAllAsync(Expression<Func<T, bool>>? predicate = null,
            Func<IQueryable<T>, IIncludableQueryable<T, object>>? include = null,
